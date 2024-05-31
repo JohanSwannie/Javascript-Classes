@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: darkblue;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container,
+.container2 {
+  width: 100vw;
+  margin-bottom: 7em;
+}
+
+.container2 {
+  display: none;
+}
+
+.instances {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  width: 15vw;
+  height: 3rem;
+  background: peachpuff;
+}
+
+#buttercup {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.wrapper1,
+.wrapper2 {
+  width: 100vw;
+  margin: 0 1.5vw;
+}
+
+.displayContainers,
+.descriptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.descriptions div {
+  width: 30vw;
+  height: 2rem;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border: 0.2vw solid #fff;
+  background: rebeccapurple;
+}
+
+.displayContainers div {
+  width: 30vw;
+  height: 11rem;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border: 1vw solid #fff;
+  border-style: ridge;
+  background: rebeccapurple;
+}
+
+.wrapper2 {
+  margin-bottom: 2rem;
+}
+
+.business {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.controller {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 2rem;
+}
+
+input[type="button"] {
+  background: navy;
+  color: #fff;
+  font-weight: bold;
+  border: 8px solid #fff;
+  border-style: double;
+}
+
+#classError {
+  position: absolute;
+  bottom: 2%;
+  left: 30%;
+  transform: ttanslate(-50%, -50%);
+  font-size: 2rem;
+  color: red;
+}
