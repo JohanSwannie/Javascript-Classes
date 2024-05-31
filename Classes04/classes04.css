@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: crimson;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+span {
+  font-family: "Trirong", serif;
+  color: #fff;
+}
