@@ -18,7 +18,7 @@ class Rectangle {
     let colorRange = ["blue", "yellow", "green", "orange", "red", "purple"];
     this.width = value;
     this.height = heightRange[Math.floor(Math.random() * 30)];
-    this.color = colorRange[Math.floor(Math.random() * 5)];
+    this.color = colorRange[Math.floor(Math.random() * 6)];
   }
 
   get theAreas() {
