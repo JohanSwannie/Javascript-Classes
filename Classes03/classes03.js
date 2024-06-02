@@ -7,7 +7,7 @@ class Person {
   }
 
   message() {
-    document.write(`<span>The name of the person is ${this.name} ${this.surname} of age
+    document.write(`<span>The name of the person is ${this.name} ${this.surname} and is of age
         ${this.age} and he/she likes ${this.hobby}</span></br></br>`);
   }
 }
