@@ -12,8 +12,9 @@ class Person {
     const string1 = `The name of the person is ${this.name} ${this.surname} and is of age ${this.age} and likes to do ${this.hobby}`;
     const array1 = string1.split(" ");
     const poepies = document.getElementById("p1");
+    let spanner;
     for (let i = 0; i < array1.length; i++) {
-      const spanner = document.createElement("span");
+      spanner = document.createElement("span");
       spanner.setAttribute("id", `span${i}`);
       spanner.innerHTML = array1[i];
       poepies.appendChild(spanner);
