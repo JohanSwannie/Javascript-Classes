@@ -9,6 +9,20 @@ class Person {
   message() {
     document.write(`<span>The name of the person is ${this.name} ${this.surname} and is of age
         ${this.age} and likes to do ${this.hobby}</span></br>`);
+    const string1 = `The name of the person is ${this.name} ${this.surname} and is of age ${this.age} and likes to do ${this.hobby}`;
+    const array1 = string1.split(" ");
+    const poepies = document.getElementById("p1");
+    for (let i = 0; i < array1.length; i++) {
+      const spanner = document.createElement("span");
+      spanner.setAttribute("id", `span${i}`);
+      spanner.innerHTML = array1[i];
+      if (i === 0 || i % 2 === 0) {
+        document.getElementById(`span${i}`).style.color = "#FFF";
+      } else {
+        document.getElementById(`span${i}`).style.color = "#000";
+      }
+    }
+    poepies.appendChild(spanner);
   }
 }
 
