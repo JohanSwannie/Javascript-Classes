@@ -16,13 +16,13 @@ class Person {
       const spanner = document.createElement("span");
       spanner.setAttribute("id", `span${i}`);
       spanner.innerHTML = array1[i];
+      poepies.appendChild(spanner);
       if (i === 0 || i % 2 === 0) {
         document.getElementById(`span${i}`).style.color = "#FFF";
       } else {
         document.getElementById(`span${i}`).style.color = "#000";
       }
     }
-    poepies.appendChild(spanner);
   }
 }
 
