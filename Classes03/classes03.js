@@ -8,7 +8,7 @@ class Person {
 
   message() {
     document.write(`<span>The name of the person is ${this.name} ${this.surname} and is of age
-        ${this.age} and he/she likes ${this.hobby}</span></br></br>`);
+        ${this.age} and likes to do ${this.hobby}</span></br></br>`);
   }
 }
 
@@ -21,7 +21,7 @@ class CareerPerson extends Person {
 
   careerPersonDescription() {
     document.write(`<span>Career Person ${this.name} ${this.surname} is
-        ${this.age} old, with a hobby of ${this.hobby}, in a job of
+        ${this.age} old, with a hobby of ${this.hobby} and in a job of
         ${this.jobDescription} for ${parseFloat(
       (this.monthsInJob / 12).toFixed(1)
     )}
